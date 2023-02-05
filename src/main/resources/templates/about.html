@@ -2,10 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" media="all" th:href="@{/css/party.css}"/>
   <title>About</title>
 </head>
 <body>
-<h1>About me</h1>
-<p>This is all about me</p>
+<div class="row1">
+  <div class="row1content">
+    <div>
+      <h1>About me</h1>
+      <p>This is all about me...</p>
+      <ol>
+        <li th:text="${name}">naam</li>
+        <li th:text="${street}">straat</li>
+        <li th:text="${city}">gemeente</li>
+      </ol>
+
+      <p><a th:href="@{/}">home</a></p>
+    </div>
+  </div>
+</div>
 </body>
 </html>
