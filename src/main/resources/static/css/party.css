@@ -31,6 +31,15 @@ a {
     margin: 0 50px;
 }
 
-p {
-    margin: 20px;
+div.info {
+    width: 240px;
+    display: inline-block;
+    margin-left: 20px;
 }
+
+div.info + div {
+    display: inline-block;
+}
+
+p { margin: 5px; }
+
