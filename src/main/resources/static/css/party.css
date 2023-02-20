@@ -44,7 +44,13 @@ a {
 .row1 {
     display: flex;
     position: relative;
-    margin: 20px 0;
+    margin: 100px 0 20px 0;
+    min-height: 500px;
+}
+
+.row1 img {
+    width: 100%;
+    height: auto;
 }
 
 .row1content {
