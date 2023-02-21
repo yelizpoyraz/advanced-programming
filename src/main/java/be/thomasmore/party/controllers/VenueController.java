@@ -24,7 +24,7 @@ public class VenueController {
         }
         return "venuedetails";
     }
-//test
+//test 2
     @GetMapping("/venuelist")
     public String venueDetails(Model model) {
         //Iterable<Venue> allVenues = venueRepository.findAll();
